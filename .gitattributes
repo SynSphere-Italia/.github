@@ -1,0 +1,4 @@
+# Fine-riga congelati a LF, come nel repository dei toolkit: una conversione
+# a CRLF riscrive ogni riga e rende illeggibile il diff.
+*.md   text eol=lf
+*      -text
